@@ -1,0 +1,148 @@
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	background-color: #f9f9f9;
+	}
+
+.wrapper {
+	margin-left: 170px;
+	width: 1060px;
+	background-color: #ffffff;
+	box-shadow: 0 0 5px 0 black; /*1 значение смещение влево, Второе - смещение вниз, 3 - радиус, 4-увеличение, 5 - цвет с прозрачностью в RGBA */
+	}
+
+.info {
+	padding: 45px 40px;
+}
+
+/*HEADER*/
+h1 {
+	font-size: 48px;
+	font-family: verdana;
+	color: black;
+}
+
+header {
+	margin-top: 37px;
+	margin-bottom: 40px;
+	margin-left: 5px;
+	margin-right: 9px;
+}
+
+.top-line {
+	position: relative;
+	overflow: hidden;
+	background-color: #505050;
+}
+
+.top-line li {
+	float: left;
+	width: 142px;
+}
+
+.top-line a {
+	display: block;
+	color: white;
+	line-height: 38px;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 62px;
+	font-size: 15px;
+}
+
+.top-line a:hover {
+	background-color: #3f3f3f;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+/*CONTENT*/
+.content {
+	position: relative;
+	overflow: hidden;
+}
+.sidebar {
+	float: left;
+	width: 242px;
+	margin-left: 4px;
+}
+.sidebar-menu {
+	border: 1px solid #c8c8c8;
+}
+
+.sidebar-menu li {
+	border-top: 1px solid #c8c8c8;
+}
+
+.sidebar-menu li:first-child {
+	border-top: none;
+}
+
+.sidebar-menu a {
+	display: block;
+	padding-left: 20px;
+	line-height: 39px;
+	color: grey;
+	font-size: 14px;
+	text-decoration: none;
+	transition: 1s all; 
+	}
+.sidebar-menu a:hover {
+	color: #000;
+	background-color: #f9f9f9;
+	padding-left: 35px;
+}
+.product {
+	float: right;
+	width: 677px;
+	margin-right: 11px;
+}
+.product-image {
+	padding: 40px 0;
+	border: 1px solid #c8c8c8;
+	text-align: center;
+}
+img {
+	width: 78%;
+	}
+.product-description {
+	line-height: 21px;
+	font-size: 14px;
+	color: #2c2c2c;
+	padding: 30px 22px 0 22px;
+}
+
+/*FOOTER*/
+footer {
+	padding: 50px 0;
+}
+.footer-menu {
+	position: relative;
+	overflow: hidden;
+	background-color: #e1e1e1;
+	margin-left: 4px;
+	margin-right: 12px;
+	margin-top: 9px;
+}
+.footer-menu li {
+	float: left;
+	list-style: none;
+	line-height: 40px;
+}
+.footer-menu a {
+	display: block;
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 13px;
+	padding-left: 24px;
+	padding-right: 72px;
+}
+.footer-menu .copyright {
+	float: right;
+	margin-right: 23px;
+	font-size: 13px;
+	
+}
+.footer-menu a:hover {
+	text-decoration: underline;
+}
